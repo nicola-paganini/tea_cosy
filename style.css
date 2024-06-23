@@ -1,0 +1,128 @@
+
+html{
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    box-sizing: border-box;
+}
+/* Header & Navigation bar*/
+
+header{
+    display: flex;
+    text-decoration: underline;
+    padding: 19px 10px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.logo{
+    display:flex;
+    height:50px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.nav_link{
+    display: flex;
+    padding:0 20px;
+}
+
+
+/* Mission (DONE)*/
+
+.mission{
+    display: flex;
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    max-width:1200px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.mission_text{
+    background-color: black;
+    width: 1200px;
+}
+
+/* Tea of the Month (DONE)*/
+.tea_month{
+    
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    flex-wrap: wrap;
+    margin:auto auto;
+    
+}
+.tea{
+    width: 300px;
+    height: 200px;
+    display: flex;
+
+}
+
+/* tea_text = img + text (container) (DONE) */
+
+.tea_text{
+    width: 300px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Locations (DONE) */
+
+.location_header{
+    padding-top: 15px;
+}
+
+.locations{
+    background-image: url('img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 500px;
+    max-width: 1000px;
+    margin: auto auto;
+    padding: 0 30px;
+}
+
+.location_list{
+    display: flex;
+    justify-content: center;
+}
+.bullet{
+    background-color: black;
+    min-width: 300px;
+    justify-content: center;
+    margin: auto 30px;
+    height: 300px;
+    line-height: 2rem;
+    text-align: center;
+    opacity: 1;
+
+    
+}
+
+/* Footer (DONE) */
+
+.footer{
+    min-height: 200px;
+}
+
+.copyright{
+    display: flex;
+    text-align:left;
+    padding: 20px;
+}
